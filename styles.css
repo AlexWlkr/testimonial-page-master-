@@ -1,20 +1,63 @@
-   * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
 
-      body {
-        height: 100vh;
-      }
+body {
+  height: 100vh;
+  background-color: #fafaf9;
+}
+/* HEADER*/
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+/* REVIEWERS SECTION */
+h2 {
+  color: #52525a;
+}
+p {
+  color: #d4d4d8;
+}
+#reviewers-info{
+    display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
 
-      .author-info a {
-        text-decoration: none;
-      }
+/* TESTIMONIALS SECTION*/
+#testimonials{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
+.cards {
+  background-color: #ffffff;
+
+}
+.user-info{
+  color:
+#18181B;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.testimonial {
+ font-size: 16px;
+  line-height: 1.5;
+  color: 52525A;
+  }
+
+.author-info a {
+  text-decoration: none;
+}
